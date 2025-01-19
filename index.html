@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel= "stylesheet" href= "https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" >
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="head">
+        <div class="container-fluid">
+          <a class="navbar-brand " href="#"><img style="margin-top: -20px;" src="./images/Logo.png" width="120px" alt="Logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav d-flex justify-content-between mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">BOOK</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">CHECK IN</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" ><span>MANAGE</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active ms-5" href="#" >Deals </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Fly with us </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Where we fly </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Shep </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">FAQ </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#" >Fees </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#"> <span style="margin-left: 10rem;">elevator <span><i class="las la-arrow-circle-up text-white fs-5"></i></span></span>  </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#" > sign In </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#" > Sign Up  </a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <section class="mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+              <h2 class="text-center">Book from <span class="violet">San Francisco <span><i class="las la-angle-down fs-6 me-2"></i></span></span>to</h2>
+          </div>
+      </div>
+
+      </div>
+      <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-2 mb-3">
+                <div class="card">
+                    <div class="card-body ">
+                        <h5 class="card-title">Las Vegas</h5>
+                        <p class="card-text">NV (LAS)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 mb-3">
+                <div class="card">
+                    <div class="card-body ">
+                        <h5 class="card-title">Los Angeles</h5>
+                        <p class="card-text">CA (LAX)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 mb-3">
+                <div class="card">
+                    <div class="card-body ">
+                        <h5 class="title">New York City</h5>
+                        <p class="card-text">NY (LGA)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 mb-3">
+                <div class="card">
+                    <div class="card-body ">
+                        <h5 class="card-title">Palm Springs</h5>
+                        <p class="card-text">CA (PSP)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 mb-3">
+                <div class="card">
+                    <div class="card-body ">
+                        <h5 class="card-title">Portland</h5>
+                        <p class="card-text">OR (PDX)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 mb-3">
+                <div class="card">
+                    <div class="card-body ">
+                        <h5 class="card-title">All Cities</h5>
+                        <i class="las la-angle-down"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section class="mt-3 bg-danger pt-3 pb-5" id="main">
+      <div class="container">
+        <h3>So, where next ?</h3>
+        <div class="contenu">
+          <div class="d-flex justify-content-between align-items-center mt-3">
+            <div class="custom-control custom-switch">
+              <input type="checkbox" class="custom-control-input" id="customSwitch1">
+              <label class="custom-control-label" for="customSwitch1">Search for Reward Flights</label>
+            </div>
+            <a href="#">Got a discount code?</a>
+          </div>
+          <div class="mt-3">
+            <div class="row">
+              <div class="col-12">
+                <form>
+                  <div class="row">
+                    <div class="col-2">
+                      <input type="text" class="form-control" placeholder="Flying from">
+                    </div>
+                    <div class="col-2">
+                      <input type="text" class="form-control" placeholder="e.g. New York">
+                    </div>
+                    <div class="col-2">
+                      <select class="form-select">
+                        <option value="roundtrip">Round trip</option>
+                        <option value="oneway">One way</option>
+                      </select>
+                    </div>
+                    <div class="col-2">
+                      <input type="date" class="form-control">
+                    </div>
+                    <div class="col-2">
+                      <select class="form-select">
+                        <option value="1">1 person</option>
+                        <option value="2">2 persons</option>
+                      </select>
+                    </div>
+                    <div class="col-2">
+                      <button type="submit" class="btn btn-danger">Search</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        
+        </div>
+      
+
+      </div>
+    </section>
+    <section class="mt-5" >
+      <div class="container">
+        <h3>Flights to the UK</h3>
+        <div class="row mt-3">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="card" style="width: 100%; height: 100%;"  >
+              <img src="./images/Man.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Flights to London Heathrow </h5>
+                <p class="card-text">Fly with Virgin Atlantic direct to London Heathrow with easy onward connections to Europe and beyond.</p>
+                <a href="#" class="btn btn-outline-danger">Book now</a>
+              </div>
+            </div>
+
+
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="card" style="width: 100%; height: 100%;" >
+           <img  src="./images/Manchester.jpg" height="100%" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Flights to Manchester</h5>
+                <p class="card-text"> Experience more of what the UK has to offer and book your next flight to the UK home in the North with Virgin Atlantic</p>
+                <a href="#" class="btn btn-outline-danger">Book now</a>
+              </div>
+            </div>
+          
+              
+            
+
+          </div>
+
+        </div>
+        <div class="row mt-5">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <img src="./images/los-angeles-bicycle-card.jpg" width="100%" alt="los-angeles-bicycle-card">
+
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <h3 class="mt-5">Last minute flights</h3>
+            <h6>Ready for an impromptu adventure?</h6>
+            <p>Snag one of our last-minute flight deals, departing in the next few months. From beach holidays in the Caribbean to city breaks in the US, or vibrant visits to India - you won't want these offers to take off without you! So grab your passport, and let's make those travel dreams a reality.</p>
+            <button type="button" class="btn btn-outline-danger">Find your flight</button>
+            
+
+          </div>
+          
+        </div>
+        <div class="row mt-5">
+          <h1 class="mb-3">US destinations we love</h1>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+            <div class="card">
+              <img class="card-img-top" src="./images/washington-card.avif" alt="washington-card">
+              <div class="card-body">
+                <h5 class="card-title">Flights to Washington DC</h5>
+                <p class="card-text">Take a Virgin Atlantic flight to Washington DC and discover a city steeped in US culture and history.</p>
+                <button type="button" class="btn btn-outline-danger">Show flight deals</button>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+            <div class="card" >
+              <img class="card-img-top" src="./images/nyc-card.avif" alt="nyc-card">
+              <div class="card-body">
+                <h5 class="card-title">Flights to New York</h5>
+                <p class="card-text">Iconic buildings, baseball, world class shopping and eating, not forgetting the vibrant nightlife </p>
+                <button type="button" class="btn btn-outline-danger">Show flight deals</button>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+            <div class="card" >
+              <img class="card-img-top" src="./images/atlanta-card.avif" alt="atlanta-card">
+              <div class="card-body">
+                <h5 class="card-title">Flights to Atlanta</h5>
+                <p class="card-text">Explore one of the fastest growing cities in the US with a buzzing cosmopolitan scene and laidback suburbs.</p>
+                <button type="button" class="btn btn-outline-danger">Show flight deals</button>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="row mt-5 mb-5">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <img src="./images/swimming.jpg" width="100%" alt="swimming">
+
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mt-5">
+            <h3>Rewarding you with every seat</h3>
+            <h6>Pay for any seat with points</h6>
+            <p>Seats just got real. From now on, you can use your Virgin Points for every seat onboard, giving you limitless choice and flexibility when planning your next trip.</p>
+            <p>The only thing left to think about is where you’ll land next. </p>
+            <p>Not a member yet? <span><a href="#"> Join our Flying Club programme</a></span> to start earning points.</p>
+            <button type="button" class="btn btn-outline-danger">Take a seat</button>
+          </div>
+
+        </div>
+        <div class="row mt-5">
+          <h1 class="mb-5">Fly in style, in any seat</h1>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+            <div class="card">
+              <img src="./images/economy.avif" class="card-img-top" alt="economy">
+              <div class="card-body">
+                <h5 class="card-title">Economy</h5>
+               <h6>Three ways to fly</h6>
+                <p class="card-text">With the best crew in the sky. With our Economy, you can afford to be choosy.</p>
+                <button type="button" class="btn btn-outline-danger">Enjoy Economy</button>
+             
+              </div>
+            </div>
+
+
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+            <div class="card" >
+              <img src="./images/Premium.avif" class="card-img-top" alt="Premium">
+              <div class="card-body">
+                <h5 class="card-title">Premium</h5>
+                <h6>Premium comfort with all the perks</h6>
+                <p class="card-text">The difference between a good flight and a phenomenal one is in the details.</p>
+                <button type="button" class="btn btn-outline-danger">Explore Premuim</button>
+             
+              </div>
+            </div>
+
+
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+            <div class="card">
+              <img src="./images/Upper.avif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Upper Class</h5>
+                <h6>The perfect retreat at 30,000 feet</h6>
+                <p class="card-text">We’ve taken the time to consider every last detail of your journey so you don't have to.</p>
+                <button type="button" class="btn btn-outline-danger">Discover Upper Class</button>
+              </div>
+            </div>
+
+
+          </div>
+
+        </div>
+        <div class="row mt-5">
+          <h1 class="mb-5">Flying with us</h1>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+            <div class="card" style="height: 100%; width: 100%;">
+              <img src="./images/flying experience.avif" class="card-img-top" alt="flying experience">
+              <div class="card-body">
+                <h5 class="card-title">Our unique experience</h5>
+                <p class="card-text">Stellar service, carefully curated inflight entertainment, and plenty of little touches to make your time with us special.</p>
+                <button type="button" class="btn btn-outline-danger">Fly in style</button>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+            <div class="card" style="height: 100%; width: 100%;" >
+              <img src="./images/baggage.avif"  class="card-img-top" height="100%" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Baggage unpacked</h5>
+                <p class="card-text">All you need to know about baggage allowance, what you can/can't take onboard and everything else inbetween.</p>
+                <button type="button" class="btn btn-outline-danger">Come this way</button>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+            <div class="card" style="height: 100%; width: 100%;">
+              <img src="./images/club.avif"  class="card-img-top" height="100%" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Flying Club</h5>
+                <p class="card-text">Join Flying Club for free and earn Virgin Points on every Virgin Atlantic flight.</p>
+                <button type="button" class="btn btn-outline-danger">Find out more </button>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="row mt-5">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="card" style="width: 100%; height: 100%;" >
+              <img src="./images/aircraft-model.avif" height="100%"  class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Our mission to net zero</h5>
+                <p class="card-text">We’ve announced a set of ambitious interim milestones to take Virgin Atlantic to net zero carbon by 2050. ​</p>
+                <button type="button" class="btn btn-outline-danger">Find out more </button>
+              </div>
+            </div>
+            
+
+
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="card">
+              <img src="./images/SAF flight_mobile.avif"  class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+               <button type="button" class="btn btn-outline-danger">More about flight 100</button>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+      <section class="mt-5 text-center" id="avant">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+              <img src="./images/flight  indormation icon.png" alt="flight indormation">
+            <h5 class="mt-3">Pre-travel advice</h5>
+            <p>Everything you need to know before you go.</p>
+            <a href="#" class="text-danger">Pre-travel advice</a>
+  
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+              <img src="./images/info.jpeg" alt="information">
+              <h5 class="mt-3">Flight information</h5>
+              <p>What to do if your flight is cancelled, delayed or disrupted.</p>
+              <a href="#" class="text-danger">Flight information</a>
+  
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+              <img src=".//images/close.jpeg" alt="close">
+              <h5 class="mt-3">Flying with baggage</h5>
+              <p>Find out what you can and can't take with you.</p>
+              <a href="#" class="text-danger">Flying with baggage</a>
+        
+  
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+              <img src="./images/virgin card.jpeg" alt="virgin card">
+              <h5 class="mt-3">Pay with Virgin Points</h5>
+              <p>Join Flying Club to earn and spend points on your flight.</p>
+              <a href="#" class="text-danger">Earn and spend</a>
+  
+            </div>
+  
+          </div>
+
+        </div>
+
+      </section>
+
+    </section>
+   <footer class="pt-5 pb-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+          <ul class="p-0 text-white">
+            <li><a href="#" class="h3">Where we fly</a></li>
+            <li class="mt-3"><a href="#" class="h3 ">Experience</a></li>
+            <li class="mt-3"><a href="#" class="h3 ">Deals</a></li>
+            <li class="mt-3"><a href="#" class="h3">Flying Club</a></li>
+
+          </ul>
+
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+          <ul class="p-0 text-white">
+           <li class="h6">About Virgin Atlantic</li>
+           <li><a href="#">Our story</a></li>
+           <li><a href="#">Business as a force for good</a></li>
+           <li><a href="#">Media centre</a></li>
+           <li><a href="#">Annual reports</a></li>
+           <li><a href="#">Careers</a></li>
+           <li class="mt-5 h6">Policies</li>
+           <li><a href="#">Canadian tariffs</a></li>
+           <li><a href="#">Israeli Law and Regulations</a></li>
+           <li><a href="#">Air Carrier Access Act</a></li>
+           <li><a href="#">Website security guidance</a></li>
+           <li><a href="#"></a>Tarmac delay plan</li>
+           <li><a href="#">Customer commitment</a></li>
+           <li><a href="#"></a>Website usage policy</li>
+
+
+          </ul>
+
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+          <ul class="p-0 text-white">
+            <li class="h6">Support</li>
+            <li><a href="#">Help and contact</a></li>
+            <li><a href="#">baggage</a></li>
+            <li><a href="#">Special assistance</a></li>
+            <li><a href="#">Flight disruption</a></li>
+            <li><a href="#">Flying Club help</a></li>
+            <li class="mt-5 h6">More</li>
+            <li><a href="#">Virgin Atlantic Cargo</a></li>
+            <li><a href="#">Travel trade</a></li>
+            <li><a href="#">Affiliates</a></li>
+            <li><a href="#">Virgin Atlantic Credit Cards</a></li>
+            <li><a href="#"></a>Partners</li>
+            <li><a href="#">SkyTeam</a></li>
+            <li><a href="#">Business travel</a></li>
+
+
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+          <ul class="p-0 d-flex justify-content-between text-white">
+            <li><i class="lab la-instagram fs-1"></i></li>
+            <li><i class="lab la-facebook fs-1"></i></li>
+            <li><i class="lab la-twitter fs-1"></i></li>
+            <li><i class="lab la-youtube fs-1"></i></li>
+
+          </ul>
+
+        </div>
+        <p class="text-center text-white">© 2025 Virgin Atlantic Airways Ltd. All rights reserved.</p>
+        <p class="text-center text-white"> Registered office: The VHQ, Fleming Way, Crawley, West Sussex, RH10 9DF</p>
+
+      </div>
+
+    </div>
+
+   </footer>
+            
+
+            
+      
+    
+</body>
+</html>
